@@ -50,9 +50,9 @@ var viewer = pannellum.viewer('panorama', {
         "vaov":150,
         "minPitch":-25,
         "maxPitch": 25,
-        "yaw": 0,
+        "yaw": 5,
         "compass":true,
-        "northOffset":0
+        "northOffset":-5
         
       }, 
     }
@@ -124,7 +124,7 @@ function updateDegreeScale() {
       "image-1": 0,
       "image-2": 0,
       "image-3": 0,
-      "image-4": 0
+      "image-4": 5
     };
   
     // Get the adjusted yaw value based on the current scene and initial yaw
